@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Pedigree vital protection",
+    "price": 24.99
+  },
+  {
+    "id": 2,
+    "name": "Pedigree puppy",
+    "price": 20.99
+  },
+  {
+    "id": 3,
+    "firstName": "Purina healthy weight",
+    "price": 22.99
+  },
+  {
+    "id": 4,
+    "firstName": "Purina Dog Chow",
+    "price": 27.99
+  },
+  {
+    "id": 5,
+    "firstName": "Nudges grillers",
+    "price": 12.99
+  },
+  {
+    "id": 6,
+    "name": "Purina baked delights",
+    "price": 14.99
+  },
+  {
+    "id": 7,
+    "name": "Pedigree markies",
+    "price": 11.99
+  },
+  {
+    "id": 8,
+    "name":"Pedigree tasty bites",
+    "price": 15.99
+  }
+]
