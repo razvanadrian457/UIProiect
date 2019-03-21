@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/user-style.css" rel="stylesheet" type="text/css">
+    <script src="js/lib/jquery-2.1.3.js"></script>
+    <script src="js/user.js" async></script>
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <a href="index.html" class="logo"><img src="img/logo-Recovered.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="user.html">My account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="full-screen-container">
+    <div class="login-container">
+        <h3 class="login-title">Register</h3>
+        <form class="form-control" onsubmit="window.Login.register(event);">
+            <div class="input-group">
+                <label class="marg1">Email</label>
+                <input id="em" type ="email" name="email">
+            </div>
+
+            <div class="input-group">
+                <label class="marg3">Password</label>
+                <input id="pa" type = "password" name="password">
+            </div>
+            <button type="submit" class="login-button">Sign up</button>
+
+            <div class="modal-footer">
+                <button id="userIncorrect" style="display:none">Wrong username, try another</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+
+</html>
